@@ -12,7 +12,7 @@ Most of my work combines climate data, remote sensing and statistics, written up
 
 ### Current project
 
-**[Rainfall, urban growth and flood risk in Lagos, 2005–2024](https://github.com/Secure14X/climate-flood-research)**
+**[Rainfall, urban growth and flood risk in Lagos, 2005–2024](https://github.com/GeoAlbertX/climate-flood-research)**
 
 Two linked studies of Lagos:
 
