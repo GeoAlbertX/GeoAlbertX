@@ -10,7 +10,7 @@ Most of my work combines climate data, remote sensing and statistics, written up
 - Environmental sustainability and nature-based solutions (SuDS, green infrastructure)
 - Climate adaptation in fast-growing cities
 
-### Current project
+### Projects
 
 **[Rainfall, urban growth and flood risk in Lagos, 2005–2024](https://github.com/GeoAlbertX/climate-flood-research)**
 
@@ -20,9 +20,13 @@ Three linked studies of Lagos:
 2. **Urban flood risk.** An SCS Curve Number runoff model driven by that rainfall and by built-up area from the Global Human Settlement Layer (Google Earth Engine). It separates the effect of urban growth from the effect of rainfall change and compares five drainage strategies. Combining green infrastructure with drain upgrades reduced modelled flood volume the most.
 3. **[Lost wetlands and flood storage](https://github.com/GeoAlbertX/lagos-wetland-reclamation)** *(in progress).* Mapping how much of Lagos's wetland, mangrove and lagoon edge has been reclaimed since 1986 using Random Forest classification of Landsat and Sentinel-2 imagery in Google Earth Engine, then estimating the flood storage that was lost and what could remain by 2050.
 
+**[ServiceScape AI: rural service planning in Nigeria](https://github.com/GeoAlbertX/servicescape-ai)**
+
+Machine learning and spatial optimisation to find where rural communities are far from public health care and schools, and where new facilities would help most. In Ogun State, rural residents walk 44 minutes on average to a public health facility, against 10 minutes in cities. Twenty well-placed new facilities would bring about 66,000 more rural residents within an hour's walk. Methods: Degree of Urbanisation, DBSCAN and k-means on AI-derived population data, walking-time modelling on OpenStreetMap, and a Maximal Covering Location Problem.
+
 ### Tools I use
 
-Python (pandas, NumPy, SciPy, Matplotlib) · Google Earth Engine · GHSL · NASA POWER and ERA5 climate data · hydrological modelling (SCS-CN) · trend and extreme-value statistics · Git
+Python (pandas, NumPy, SciPy, scikit-learn, GeoPandas, rasterio, Matplotlib) · spatial optimisation (PuLP) · Google Earth Engine · GHSL · NASA POWER and ERA5 climate data · hydrological modelling (SCS-CN) · trend and extreme-value statistics · Git
 
 ### Contact
 
