@@ -1,6 +1,4 @@
-## Hi, I'm Albert
-
-I'm a Geography graduate (BSc). My interest is in how climate, land use and water come together in cities, especially how rainfall and urban growth affect flooding in West Africa, and what planners can realistically do about it.
+An Urban planner whose interest is in how climate, land use and water come together in cities, especially how rainfall and urban growth affect flooding in West Africa, and what planners can realistically do about it.
 
 Most of my work combines climate data, remote sensing and statistics, written up in Python so that anyone can check the results or rerun them for another city.
 
