@@ -18,7 +18,7 @@ Three linked studies of Lagos:
 
 1. **Rainfall trends.** Twenty years of daily NASA POWER rainfall, analysed with 14 ETCCDI climate indices, Mann-Kendall and Sen's slope trend tests, a Pettitt change-point test and Gumbel extreme-value analysis. Total rainfall hasn't changed significantly. However, the storm that used to be a 1-in-10-year event in 2005–2014 behaves more like a 1-in-4-year event in 2015–2024.
 2. **Urban flood risk.** An SCS Curve Number runoff model driven by that rainfall and by built-up area from the Global Human Settlement Layer (Google Earth Engine). It separates the effect of urban growth from the effect of rainfall change and compares five drainage strategies. Combining green infrastructure with drain upgrades reduced modelled flood volume the most.
-3. **Lost wetlands and flood storage** *(in progress).* Mapping how much of Lagos's wetland, mangrove and lagoon edge has been reclaimed since 1986 using Random Forest classification of Landsat and Sentinel-2 imagery in Google Earth Engine, then estimating the flood storage that was lost and what could remain by 2050.
+3. **[Lost wetlands and flood storage](https://github.com/GeoAlbertX/lagos-wetland-reclamation)** *(in progress).* Mapping how much of Lagos's wetland, mangrove and lagoon edge has been reclaimed since 1986 using Random Forest classification of Landsat and Sentinel-2 imagery in Google Earth Engine, then estimating the flood storage that was lost and what could remain by 2050.
 
 ### Tools I use
 
