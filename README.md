@@ -1,33 +1,41 @@
-An Urban planner whose interest is in how climate, land use and water come together in cities, especially how rainfall and urban growth affect flooding in West Africa, and what planners can realistically do about it.
+### Mapping where cities flood, and why
 
-Most of my work combines climate data, remote sensing and statistics, written up in Python so that anyone can check the results or rerun them for another city.
+I'm a geographer and urban planner in Lagos. I use satellite imagery, climate data and GIS to understand how land-use change and rainfall shape flood risk in West African cities, and what planners can realistically do about it. Before research, I spent years on the ground: site surveys and environmental impact work in Uyo, then managing estate projects in Lagos, including one that reclaimed wetland by dredging and sand-filling. That's the process I now study from above.
 
-### Research interests
+**Specialties:** Remote sensing · Land-cover change · Urban flood risk · Climate data analysis · Spatial planning
 
-- Urban flooding and stormwater management
+**Current work:**
+
+- **[Lagos wetland reclamation](https://github.com/GeoAlbertX/lagos-wetland-reclamation)**: Random Forest land-cover maps of Lagos State for 2014 and 2025 in Google Earth Engine (95.5 % and 86.8 % accuracy). About 290 km² became built-up land or sand fill in eleven years, including about 33 km² of wetland and mangrove (first estimates; independent validation next).
+- **[Rainfall, urban growth and flood risk in Lagos](https://github.com/GeoAlbertX/climate-flood-research)**: 44 years of daily rainfall (1981–2024) from three datasets. No trend holds across all three, so rain alone can't explain worsening floods. The land has changed, though: in the Lekki–Ajah corridor, built-up land rose from 16 % to 26 % (2005–2024) and the share of rain running off rose by about a third.
+- **[Uyo flood risk](https://github.com/GeoAlbertX/uyo-flood-risk)**: an open framework for mapping flood susceptibility in Uyo with CHIRPS rainfall trends and an AHP-weighted terrain overlay in QGIS and Python (analysis in progress).
+- **[ServiceScape AI](https://github.com/GeoAlbertX/servicescape-ai)**: machine learning and spatial optimisation for rural service planning. In Ogun State, rural residents walk 44 minutes on average to a public health facility, against 10 minutes in cities; twenty well-placed facilities would bring about 66,000 more rural residents within an hour's walk.
+- **Who floods whom?** *(proposed)*: hydrodynamic modelling of compound rainfall and coastal flooding in Lagos, to estimate how much flood risk land reclamation shifts onto neighbouring communities.
+
+**Research focus:**
+
+- Wetland and mangrove loss to land reclamation in coastal cities
+- Urban flooding, runoff and stormwater management
 - Rainfall variability and climate extremes in West Africa
-- GIS and remote sensing of land-use change
-- Environmental sustainability and nature-based solutions (SuDS, green infrastructure)
-- Climate adaptation in fast-growing cities
+- Earth observation for climate-resilient urban planning
+- Nature-based solutions: wetlands, green infrastructure, SuDS
 
-### Projects
+**Approach:** Open data, code anyone can rerun, and results reported with their limits. When a result doesn't hold up, I say so and update it.
 
-**[Rainfall, urban growth and flood risk in Lagos, 2005–2024](https://github.com/GeoAlbertX/climate-flood-research)**
+🌍 Based in Lagos, Nigeria
 
-Three linked studies of Lagos:
+🗺️ Story map: [Where did Lagos' wetlands go?](https://storymaps.arcgis.com/stories/ffafbbe317ca40dd8478cdd1a879a65b)
 
-1. **Rainfall trends.** Twenty years of daily NASA POWER rainfall, analysed with 14 ETCCDI climate indices, Mann-Kendall and Sen's slope trend tests, a Pettitt change-point test and Gumbel extreme-value analysis. Total rainfall hasn't changed significantly. However, the storm that used to be a 1-in-10-year event in 2005–2014 behaves more like a 1-in-4-year event in 2015–2024.
-2. **Urban flood risk.** An SCS Curve Number runoff model driven by that rainfall and by built-up area measured from the Global Human Settlement Layer in Google Earth Engine, comparing central Lagos with the fast-growing Lekki–Ajah corridor. In central Lagos, which was already built up by 2005, rainfall drives the change. In Lekki–Ajah, built-up land rose from 16 % to 26 % and the share of rain that runs off rose by a third, entirely because of new development. Combining green infrastructure with drain upgrades reduced modelled flood volume the most in both areas.
-3. **[Lost wetlands and flood storage](https://github.com/GeoAlbertX/lagos-wetland-reclamation)** *(in progress).* Mapping how much of Lagos's wetland, mangrove and lagoon edge has been reclaimed since 1986 using Random Forest classification of Landsat and Sentinel-2 imagery in Google Earth Engine, then estimating the flood storage that was lost and what could remain by 2050.
+✉️ Contact: albertsecurx@gmail.com
 
-**[ServiceScape AI: rural service planning in Nigeria](https://github.com/GeoAlbertX/servicescape-ai)**
+🤝 Open to collaborating on flood risk, wetlands and Earth observation in African cities
 
-Machine learning and spatial optimisation to find where rural communities are far from public health care and schools, and where new facilities would help most. In Ogun State, rural residents walk 44 minutes on average to a public health facility, against 10 minutes in cities. Twenty well-placed new facilities would bring about 66,000 more rural residents within an hour's walk. Methods: Degree of Urbanisation, DBSCAN and k-means on AI-derived population data, walking-time modelling on OpenStreetMap, and a Maximal Covering Location Problem.
+⚡ Volunteer mapper on the HOT Tasking Manager · Member, OSGeo Africa Local Chapter
 
-### Tools I use
+**Capabilities & Stack:**
 
-Python (pandas, NumPy, SciPy, scikit-learn, GeoPandas, rasterio, Matplotlib) · spatial optimisation (PuLP) · Google Earth Engine · GHSL · NASA POWER and ERA5 climate data · hydrological modelling (SCS-CN) · trend and extreme-value statistics · Git
-
-### Contact
-
-albertsecurx@gmail.com
+- **Remote sensing:** Google Earth Engine · Landsat 8/9 · Sentinel-2 · NDVI / MNDWI / NDBI · Random Forest classification · Accuracy assessment
+- **GIS & mapping:** QGIS · ArcGIS Online · ArcGIS StoryMaps · OpenStreetMap · GHSL · JRC Global Surface Water
+- **Climate & hydrology:** CHIRPS · ERA5 · NASA POWER · ETCCDI indices · Mann-Kendall / Sen's slope · Gumbel extreme values · SCS Curve Number runoff
+- **Programming:** Python (pandas, NumPy, SciPy, scikit-learn, GeoPandas, rasterio, Matplotlib) · PuLP · Git
+- **Field & planning:** Site surveys · EIA / EIS · Soil sampling · Flood vulnerability assessment · Project management
